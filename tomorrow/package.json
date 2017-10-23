@@ -1,9 +1,9 @@
 {
-	"name": "Theme-TomorrowKit",
-	"displayName" : "Tomorrow and Tomorrow Night Theme Kit",
+	"name": "Hironytic-Theme-TomorrowKit",
+	"displayName" : "(Hironytic) Tomorrow and Tomorrow Night Theme Kit",
 	"description": "Additional Tomorrow and Tomorrow Night themes for VS Code. Based on the TextMate themes.",
 	"version": "0.1.4",
-	"publisher": "ms-vscode",
+	"publisher": "hironytic",
 	"engines": {
 		"vscode": "0.10.x"
 	},
@@ -12,36 +12,20 @@
 	],
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "https://github.com/hironytic/vscode-themes/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/tomorrow/README.md",
+	"homepage": "https://github.com/hironytic/vscode-themes/blob/master/tomorrow/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "https://github.com/hironytic/vscode-themes.git"
 	},
 	"icon":"icon.png",
 	"contributes": {
 		"themes": [
 			{
-				"label": "Tomorrow",
-				"uiTheme": "vs",
-				"path": "./themes/Tomorrow.tmTheme"
-			},
-			{
-				"label": "Tomorrow Night Eighties",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Tomorrow_Night_Eighties.tmTheme"
-			},
-			{
-				"label": "Tomorrow Night",
+				"label": "Hironytic Tomorrow Night",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Tomorrow_Night.tmTheme"
-			},
-
-			{
-				"label": "Tomorrow Night Bright",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Tomorrow_Night_Bright.tmTheme"
 			}
 		]
 	}
